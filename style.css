@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+
+.navbar{
+    background-color: rgb(28, 28, 129);
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 40%;
+    margin: 0px 10px 0px 10px;
+}
+
+img:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+
+.choices{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+#score-heading{
+    font-size: 2rem;
+    margin-top: 50px;
+}
+
+.scorecard{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin-top: 4rem;
+    gap: 5rem;
+}
+
+#yourScore,#compScore{
+    font-size: 4rem;
+}
+
+.msg-container{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+#msg{
+    color: green;
+    font-size: 3rem;
+    background-color: yellowgreen;
+    border-radius: 1rem;
+    width: 50%;
+}
